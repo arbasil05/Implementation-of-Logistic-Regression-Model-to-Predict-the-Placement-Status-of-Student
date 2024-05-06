@@ -8,15 +8,22 @@ To write a program to implement the the Logistic Regression Model to Predict the
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-#### 1. Import Libraries
-#### 2. Load the Dataset
-#### 3. Split the Data
-#### 4. Instantiate the Model
-#### 5. Train the Model
-#### 6. Make Predictions
-#### 7. Evaluate the Model
+#### Step 1: Start
+#### Step 2: Import Libraries
+#### Step 3: Load the Dataset
+#### Step 4: Split the Data
+#### Step 5: Instantiate the Model
+#### Step 6: Train the Model
+#### Step 7: Make Predictions
+#### Step 8: Evaluate the Model
+#### Step 9: Stop
 
 ## Program:
+```
+Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
+Developed by: Abdur Rahman Basil A H
+RegisterNumber: 212223040002
+```
 ```
 import pandas as pd
 data = pd.read_csv("D:/introduction to ML/jupyter notebooks/sample/Placement_Data.csv")
@@ -56,11 +63,6 @@ from sklearn.metrics import classification_report
 classification_report1 = classification_report(y_test,y_pred)
 print(classification_report1)
 lr.predict([[1,80,1,90,1,1,90,1,0,85,1,85,]])
-/*
-Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
-Developed by: Abdur Rahman Basil A H
-RegisterNumber: 212223040002
-*/
 ```
 
 ## Output:
